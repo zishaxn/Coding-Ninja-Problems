@@ -19,7 +19,7 @@ package priorityqueus;
     Sample Output 1:
     8 6 5 4 3 2*/
 public class InPlaceHeapSort {
-    public static void inplaceHeapSort(int arr[]) {
+    public static void inplaceHeapSort(int[] arr) {
         int n = arr.length;
         for(int i =n;i>=0;i-- ){
             downHeapify(arr,i,n);
